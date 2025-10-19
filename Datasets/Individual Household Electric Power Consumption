@@ -1,0 +1,28 @@
+# Step 1: Install the required library
+# Run this in your terminal or notebook cell (only once)
+# pip install ucimlrepo
+
+# Step 2: Import necessary functions
+from ucimlrepo import fetch_ucirepo
+
+# Step 3: Fetch the dataset by ID (235 = Individual household electric power consumption)
+dataset = fetch_ucirepo(id=235)
+
+# Step 4: Extract features (X) and targets (y)
+X = dataset.data.features
+y = dataset.data.targets
+
+# Step 5: Display metadata
+print("=== Dataset Metadata ===")
+print(dataset.metadata)
+
+# Step 6: Display variable information
+print("\n=== Variable Information ===")
+print(dataset.variables)
+
+# Step 7 (optional): Inspect the first few rows
+print("\n=== Sample Data (first 10 rows) ===")
+print(X.head(10))
+print("\n=== Target Columns ===")
+print(y.head(10))
+#this code is going to provide you with necessary informations abou the data and give you the link for the download page.
