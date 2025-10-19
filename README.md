@@ -55,16 +55,3 @@ The next phase of the project involves developing and training predictive models
 
 ---
 
-## 4. References
-
-- Kaggle dataset: [https://www.kaggle.com/uciml/electric-power-consumption-data-set](https://www.kaggle.com/uciml/electric-power-consumption-data-set)  
-- UCI ML Repository: [https://archive.ics.uci.edu/dataset/235/individual+household+electric+power+consumption](https://archive.ics.uci.edu/dataset/235/individual+household+electric+power+consumption)
-
----
-
-## 5. License
-
-*(Add license info here if applicable, e.g., MIT, GPL, etc.)*
-
----
-
