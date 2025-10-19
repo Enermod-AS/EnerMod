@@ -23,7 +23,7 @@ These datasets provide detailed household electricity consumption measurements o
 
 ## 2. Data Preprocessing
 
-The following steps were applied to prepare the data for modeling:
+The following steps will be applied to prepare the data for modeling:
 
 1. **Handling Missing Values**  
    - Missing measurements were identified and imputed or removed.
